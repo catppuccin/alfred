@@ -17,15 +17,25 @@
 
 ## Usage
 
-1. Clone this repository locally
-    ``` git clone https://github.com/catppuccin/alfred.git```
-2. Open the Alfred settings > Appearance
-3. Select `import theme` `+ button` and browse to where you cloned Catppuccin
-4. Select it
+1. Download your preferred style:
+  - Default (looks like the default "Alfred" style)
+    - [Mocha](https://raw.githubusercontent.com/catppuccin/alfred/main/dist/Catppuccin-modern-mocha.alfredappearance)
+    - [Macchiato](https://raw.githubusercontent.com/catppuccin/alfred/main/dist/Catppuccin-modern-macchiato.alfredappearance)
+    - [Frappe](https://raw.githubusercontent.com/catppuccin/alfred/main/dist/Catppuccin-modern-frappe.alfredappearance)
+    - [Latte](https://raw.githubusercontent.com/catppuccin/alfred/main/dist/Catppuccin-modern-latte.alfredappearance)
+
+  - Modern (looks like the "Alfred Modern" style, screenshot above)
+    - [Mocha](https://raw.githubusercontent.com/catppuccin/alfred/main/dist/Catppuccin-default-mocha.alfredappearance)
+    - [Macchiato](https://raw.githubusercontent.com/catppuccin/alfred/main/dist/Catppuccin-default-macchiato.alfredappearance)
+    - [Frappe](https://raw.githubusercontent.com/catppuccin/alfred/main/dist/Catppuccin-default-frappe.alfredappearance)
+    - [Latte](https://raw.githubusercontent.com/catppuccin/alfred/main/dist/Catppuccin-default-latte.alfredappearance)
+2. Open the file, and Alfred will import it
+3. Select the theme under "Appearance" in Alfred Preferences
 
 ## 💝 Thanks to
 
 - [Sadrach](https://github.com/sadrach-cl)
+- [winston](https://github.com/nekowinston)
 
 &nbsp;
 
