@@ -29,6 +29,12 @@
     - [Macchiato](https://raw.githubusercontent.com/catppuccin/alfred/main/dist/Catppuccin-default-macchiato.alfredappearance)
     - [Frappe](https://raw.githubusercontent.com/catppuccin/alfred/main/dist/Catppuccin-default-frappe.alfredappearance)
     - [Latte](https://raw.githubusercontent.com/catppuccin/alfred/main/dist/Catppuccin-default-latte.alfredappearance)
+
+  - macOS (looks like the "Alfred macOS" style)
+    - [Mocha](https://raw.githubusercontent.com/catppuccin/alfred/main/dist/Catppuccin-macOS-mocha.alfredappearance)
+    - [Macchiato](https://raw.githubusercontent.com/catppuccin/alfred/main/dist/Catppuccin-macOS-macchiato.alfredappearance)
+    - [Frappe](https://raw.githubusercontent.com/catppuccin/alfred/main/dist/Catppuccin-macOS-frappe.alfredappearance)
+    - [Latte](https://raw.githubusercontent.com/catppuccin/alfred/main/dist/Catppuccin-macOS-latte.alfredappearance)
 2. Open the file, and Alfred will import it
 3. Select the theme under "Appearance" in Alfred Preferences
 

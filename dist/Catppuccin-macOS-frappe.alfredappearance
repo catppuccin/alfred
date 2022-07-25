@@ -1,0 +1,64 @@
+{
+  "alfredtheme": {
+    "result": {
+      "textSpacing": 5,
+      "subtext": {
+        "size": 12,
+        "colorSelected": "#a5adceff",
+        "font": "System",
+        "color": "#b5bfe2ff"
+      },
+      "shortcut": {
+        "size": 16,
+        "colorSelected": "#c6d0f5ff",
+        "font": "System",
+        "color": "#b5bfe2ff"
+      },
+      "backgroundSelected": "#626880ff",
+      "text": {
+        "size": 18,
+        "colorSelected": "#c6d0f5ff",
+        "font": "System",
+        "color": "#b5bfe2ff"
+      },
+      "iconPaddingHorizontal": 4,
+      "roundness": 0,
+      "paddingVertical": 3,
+      "iconSize": 40
+    },
+    "search": {
+      "backgroundSelected": "#626880ff",
+      "paddingHorizontal": 8,
+      "spacing": 4,
+      "text": {
+        "size": 34,
+        "colorSelected": "#c6d0f5ff",
+        "font": "System Light",
+        "color": "#c6d0f5ff"
+      },
+      "background": "#232634ff",
+      "roundness": 0,
+      "paddingVertical": 5
+    },
+    "window": {
+      "color": "#292c3cff",
+      "paddingHorizontal": 0,
+      "width": 559,
+      "borderPadding": 0,
+      "borderColor": "#232634ff",
+      "blur": 15,
+      "roundness": 3,
+      "paddingVertical": 4
+    },
+    "credit": "Catppuccin Org",
+    "separator": {
+      "color": "#737994ff",
+      "thickness": 0
+    },
+    "scrollbar": {
+      "color": "#737994ff",
+      "thickness": 2
+    },
+    "name": "Catppuccin MacOS - Frappe"
+  }
+}
