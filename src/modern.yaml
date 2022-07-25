@@ -42,7 +42,6 @@ alfredtheme:
     blur: 0
     roundness: 15
     paddingVertical: 9
-  credit: Catppuccin Org
   visualEffectMode: 2
   separator:
     color: *overlay0
@@ -51,3 +50,4 @@ alfredtheme:
     color: *overlay0
     thickness: 2
   name: *name
+  credit: Catppuccin Org

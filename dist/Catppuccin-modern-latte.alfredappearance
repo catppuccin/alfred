@@ -50,7 +50,6 @@
       "roundness": 15,
       "paddingVertical": 9
     },
-    "credit": "Catppuccin Org",
     "visualEffectMode": 2,
     "separator": {
       "color": "#9ca0b0ff",
@@ -60,6 +59,7 @@
       "color": "#9ca0b0ff",
       "thickness": 2
     },
-    "name": "Catppuccin Latte"
+    "name": "Catppuccin Modern - Latte",
+    "credit": "Catppuccin Org"
   }
 }

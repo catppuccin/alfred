@@ -50,7 +50,6 @@
       "roundness": 15,
       "paddingVertical": 9
     },
-    "credit": "Catppuccin Org",
     "visualEffectMode": 2,
     "separator": {
       "color": "#6e738dff",
@@ -60,6 +59,7 @@
       "color": "#6e738dff",
       "thickness": 2
     },
-    "name": "Catppuccin Macchiato"
+    "name": "Catppuccin Modern - Macchiato",
+    "credit": "Catppuccin Org"
   }
 }

@@ -50,7 +50,6 @@
       "roundness": 15,
       "paddingVertical": 9
     },
-    "credit": "Catppuccin Org",
     "visualEffectMode": 2,
     "separator": {
       "color": "#6c7086ff",
@@ -60,6 +59,7 @@
       "color": "#6c7086ff",
       "thickness": 2
     },
-    "name": "Catppuccin Mocha"
+    "name": "Catppuccin Modern - Mocha",
+    "credit": "Catppuccin Org"
   }
 }

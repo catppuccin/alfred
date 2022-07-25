@@ -50,7 +50,6 @@
       "roundness": 15,
       "paddingVertical": 9
     },
-    "credit": "Catppuccin Org",
     "visualEffectMode": 2,
     "separator": {
       "color": "#737994ff",
@@ -60,6 +59,7 @@
       "color": "#737994ff",
       "thickness": 2
     },
-    "name": "Catppuccin Frappe"
+    "name": "Catppuccin Modern - Frappe",
+    "credit": "Catppuccin Org"
   }
 }

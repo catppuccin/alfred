@@ -16,13 +16,15 @@ palettes=(
 styles=(
   "default"
   "modern"
+  "macOS"
 )
 
 # loop over each
 for style in "${styles[@]}"; do
   for palette in "${palettes[@]}"; do
+    echo "name: &name 'Catppuccin ${style^} - ${palette^}'" | \
     # get the palette, and the style
-    cat "./src/palettes/${palette}.yaml" "./src/${style}.yaml" | \
+    cat - "./src/palettes/${palette}.yaml" "./src/${style}.yaml" | \
     # pipe it into yq, to convert to JSON
       yq -o json | \
     # and use jq to only select the `alfredtheme` key, saving to ./dist

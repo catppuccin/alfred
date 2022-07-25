@@ -1,4 +1,3 @@
-name: &name 'Catppuccin Mocha'
 rosewater: &rosewater '#f5e0dcff'
 flamingo: &flamingo '#f2cdcdff'
 pink: &pink '#f5c2e7ff'
