@@ -50,7 +50,6 @@
       "roundness": 3,
       "paddingVertical": 8
     },
-    "credit": "Catppuccin Org",
     "separator": {
       "color": "#6e738dff",
       "thickness": 0
@@ -59,6 +58,7 @@
       "color": "#6e738dff",
       "thickness": 2
     },
-    "name": "Catppuccin Default - Macchiato"
+    "name": "Catppuccin Default - Macchiato",
+    "credit": "Catppuccin Org"
   }
 }

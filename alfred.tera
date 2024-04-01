@@ -1,0 +1,207 @@
+---
+whiskers:
+  version: 2.0.0
+  matrix:
+    - flavor
+    - variant: ["default", "macOS", "modern"]
+  filename: "dist/Catppuccin-{{variant}}-{{flavor.identifier}}.alfredappearance"
+---
+{% macro hexa(c) %}#{{ c.hex }}ff{% endmacro hexa %}
+{%- set palette = flavor.colors -%}
+{%- if variant == "default" -%}
+{
+  "alfredtheme": {
+    "result": {
+      "textSpacing": 5,
+      "subtext": {
+        "size": 12,
+        "colorSelected": "{{ self::hexa(c=palette.subtext0) }}",
+        "font": "System",
+        "color": "{{ self::hexa(c=palette.subtext1) }}"
+      },
+      "shortcut": {
+        "size": 16,
+        "colorSelected": "{{ self::hexa(c=palette.text) }}",
+        "font": "System",
+        "color": "{{ self::hexa(c=palette.subtext1) }}"
+      },
+      "backgroundSelected": "{{ self::hexa(c=palette.surface2) }}",
+      "text": {
+        "size": 18,
+        "colorSelected": "{{ self::hexa(c=palette.text) }}",
+        "font": "System",
+        "color": "{{ self::hexa(c=palette.subtext1) }}"
+      },
+      "iconPaddingHorizontal": 4,
+      "roundness": 0,
+      "paddingVertical": 3,
+      "iconSize": 40
+    },
+    "search": {
+      "backgroundSelected": "{{ self::hexa(c=palette.surface2) }}",
+      "paddingHorizontal": 8,
+      "spacing": 8,
+      "text": {
+        "size": 34,
+        "colorSelected": "{{ self::hexa(c=palette.text) }}",
+        "font": "System Light",
+        "color": "{{ self::hexa(c=palette.text) }}"
+      },
+      "background": "{{ self::hexa(c=palette.crust) }}",
+      "roundness": 0,
+      "paddingVertical": 5
+    },
+    "window": {
+      "color": "{{ self::hexa(c=palette.mantle) }}",
+      "paddingHorizontal": 9,
+      "width": 560,
+      "borderPadding": 0,
+      "borderColor": "{{ self::hexa(c=palette.crust) }}",
+      "blur": 15,
+      "roundness": 3,
+      "paddingVertical": 8
+    },
+    "separator": {
+      "color": "{{ self::hexa(c=palette.overlay0) }}",
+      "thickness": 0
+    },
+    "scrollbar": {
+      "color": "{{ self::hexa(c=palette.overlay0) }}",
+      "thickness": 2
+    },
+    "name": "Catppuccin {{variant | capitalize }} - {{ flavor.identifier | capitalize }}",
+    "credit": "Catppuccin Org"
+  }
+}
+{%- elif variant == "macOS" -%} 
+{
+  "alfredtheme": {
+    "result": {
+      "textSpacing": 5,
+      "subtext": {
+        "size": 12,
+        "colorSelected": "{{ self::hexa(c=palette.subtext0) }}",
+        "font": "System",
+        "color": "{{ self::hexa(c=palette.subtext1) }}"
+      },
+      "shortcut": {
+        "size": 16,
+        "colorSelected": "{{ self::hexa(c=palette.text) }}",
+        "font": "System",
+        "color": "{{ self::hexa(c=palette.subtext1) }}"
+      },
+      "backgroundSelected": "{{ self::hexa(c=palette.surface2) }}",
+      "text": {
+        "size": 18,
+        "colorSelected": "{{ self::hexa(c=palette.text) }}",
+        "font": "System",
+        "color": "{{ self::hexa(c=palette.subtext1) }}"
+      },
+      "iconPaddingHorizontal": 4,
+      "roundness": 0,
+      "paddingVertical": 3,
+      "iconSize": 40
+    },
+    "search": {
+      "backgroundSelected": "{{ self::hexa(c=palette.surface2) }}",
+      "paddingHorizontal": 8,
+      "spacing": 4,
+      "text": {
+        "size": 34,
+        "colorSelected": "{{ self::hexa(c=palette.text) }}",
+        "font": "System Light",
+        "color": "{{ self::hexa(c=palette.text) }}"
+      },
+      "background": "{{ self::hexa(c=palette.crust) }}",
+      "roundness": 0,
+      "paddingVertical": 5
+    },
+    "window": {
+      "color": "{{ self::hexa(c=palette.mantle) }}",
+      "paddingHorizontal": 0,
+      "width": 559,
+      "borderPadding": 0,
+      "borderColor": "{{ self::hexa(c=palette.crust) }}",
+      "blur": 15,
+      "roundness": 3,
+      "paddingVertical": 4
+    },
+    "separator": {
+      "color": "{{ self::hexa(c=palette.overlay0) }}",
+      "thickness": 0
+    },
+    "scrollbar": {
+      "color": "{{ self::hexa(c=palette.overlay0) }}",
+      "thickness": 2
+    },
+    "name": "Catppuccin {{variant | capitalize }} - {{ flavor.identifier | capitalize }}",
+    "credit": "Catppuccin Org"
+  }
+}
+{%- else -%} 
+{
+  "alfredtheme": {
+    "result": {
+      "textSpacing": 5,
+      "subtext": {
+        "size": 12,
+        "colorSelected": "{{ self::hexa(c=palette.subtext0) }}",
+        "font": "System",
+        "color": "{{ self::hexa(c=palette.subtext1) }}"
+      },
+      "shortcut": {
+        "size": 16,
+        "colorSelected": "{{ self::hexa(c=palette.text) }}",
+        "font": "System",
+        "color": "{{ self::hexa(c=palette.subtext1) }}"
+      },
+      "backgroundSelected": "{{ self::hexa(c=palette.surface2) }}",
+      "text": {
+        "size": 18,
+        "colorSelected": "{{ self::hexa(c=palette.text) }}",
+        "font": "System",
+        "color": "{{ self::hexa(c=palette.subtext1) }}"
+      },
+      "iconPaddingHorizontal": 7,
+      "roundness": 8,
+      "paddingVertical": 3,
+      "iconSize": 40
+    },
+    "search": {
+      "backgroundSelected": "{{ self::hexa(c=palette.surface2) }}",
+      "paddingHorizontal": 7,
+      "spacing": 9,
+      "text": {
+        "size": 36,
+        "colorSelected": "{{ self::hexa(c=palette.text) }}",
+        "font": "System Light",
+        "color": "{{ self::hexa(c=palette.text) }}"
+      },
+      "background": "{{ self::hexa(c=palette.crust) }}",
+      "roundness": 8,
+      "paddingVertical": 5
+    },
+    "window": {
+      "color": "{{ self::hexa(c=palette.mantle) }}",
+      "paddingHorizontal": 9,
+      "width": 700,
+      "borderPadding": 0,
+      "borderColor": "{{ self::hexa(c=palette.crust) }}",
+      "blur": 0,
+      "roundness": 15,
+      "paddingVertical": 9
+    },
+    "visualEffectMode": 2,
+    "separator": {
+      "color": "{{ self::hexa(c=palette.overlay0) }}",
+      "thickness": 0
+    },
+    "scrollbar": {
+      "color": "{{ self::hexa(c=palette.overlay0) }}",
+      "thickness": 2
+    },
+    "name": "Catppuccin {{variant | capitalize }} - {{ flavor.identifier | capitalize }}",
+    "credit": "Catppuccin Org"
+  }
+}
+{%- endif %}

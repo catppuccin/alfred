@@ -50,7 +50,6 @@
       "roundness": 3,
       "paddingVertical": 4
     },
-    "credit": "Catppuccin Org",
     "separator": {
       "color": "#6c7086ff",
       "thickness": 0
@@ -59,6 +58,7 @@
       "color": "#6c7086ff",
       "thickness": 2
     },
-    "name": "Catppuccin MacOS - Mocha"
+    "name": "Catppuccin Macos - Mocha",
+    "credit": "Catppuccin Org"
   }
 }

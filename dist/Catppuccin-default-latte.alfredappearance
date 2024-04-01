@@ -50,7 +50,6 @@
       "roundness": 3,
       "paddingVertical": 8
     },
-    "credit": "Catppuccin Org",
     "separator": {
       "color": "#9ca0b0ff",
       "thickness": 0
@@ -59,6 +58,7 @@
       "color": "#9ca0b0ff",
       "thickness": 2
     },
-    "name": "Catppuccin Default - Latte"
+    "name": "Catppuccin Default - Latte",
+    "credit": "Catppuccin Org"
   }
 }
