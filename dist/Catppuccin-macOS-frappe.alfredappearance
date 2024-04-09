@@ -50,7 +50,6 @@
       "roundness": 3,
       "paddingVertical": 4
     },
-    "credit": "Catppuccin Org",
     "separator": {
       "color": "#737994ff",
       "thickness": 0
@@ -59,6 +58,7 @@
       "color": "#737994ff",
       "thickness": 2
     },
-    "name": "Catppuccin MacOS - Frappe"
+    "name": "Catppuccin Macos - Frappe",
+    "credit": "Catppuccin Org"
   }
 }
